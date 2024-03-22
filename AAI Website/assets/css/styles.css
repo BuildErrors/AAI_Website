@@ -16,7 +16,7 @@
     --black-color: hsl(228, 6%, 4%);
     --body-color: hsl(228, 6%, 12%);
     --container-color: hsl(228, 6%, 12%);
-    --shadow-img: 0 0 48px hsla(93, 54%, 54%, .4);
+    --shadow-img: 0 0 48px hsla(180, 95%, 40%, 0.4);
     --plane-shadow-img: 0 0 48px hsla(180, 95%, 40%, 0.4);
     --gradient-card: linear-gradient(180deg,
                                     hsla(93, 8%, 8%),
@@ -410,7 +410,7 @@ img {
 }
 
 /*================= CARE =================*/
-.care__container {
+.speed__container {
     padding-top: 2rem;
     row-gap: 2rem;
 }
@@ -421,20 +421,27 @@ img {
     justify-self: center;
 }
 
-.care__list {
+.speed__list {
     display: grid;
     row-gap: 1rem;
 }
 
-.care__item {
+.speed__item {
     display: flex;
     column-gap: .5rem;
     align-items: flex-start;
 }
 
-.care__item i {
+.speed__item i {
     font-size: 1.5rem;
-    color: var(--first-color);
+    color: var(--second-color);
+}
+
+/*================= SPEED =================*/
+.speed__description {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 /*================= CONTACT =================*/
@@ -461,7 +468,7 @@ img {
 }
 
 .contact__social a {
-    color: var(--first-color);
+    color: var(--second-color);
     font-size: 1.5rem;
 }
 
@@ -607,7 +614,7 @@ img {
 @media screen and (max-width: 576px) {
     .home__container,
     .new__container,
-    .care__container {
+    .speed__container {
         grid-template-columns: 400px;
         justify-content: center;
     }
@@ -686,6 +693,15 @@ img {
         column-gap: 1rem;
     }
 
+    a[href="login.html"] i.ri-user-line {
+        color: white;
+      }
+
+      a[href="login.html"] i.ri-user-line:hover {
+        color: var(--second-color);
+        transition: .2s;
+      }
+
     .home__container {
         grid-template-columns: 480px 535px;
         align-items: center;
@@ -751,7 +767,7 @@ img {
         font-size: 1.5rem;
     }
 
-    .care__container {
+    .speed__container {
         grid-template-columns: 480px 385px;
         align-items: center;
         column-gap: 8rem;
@@ -762,7 +778,7 @@ img {
         width: 480px;
     }
 
-    .care__list {
+    .speed__list {
         row-gap: 1.5rem;
     }
 
