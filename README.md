@@ -2,7 +2,6 @@
 V1.50 - Main Page Completion, Technology Page Base, Application Page
 ___________
 | Features |
- |_________|
 
 JavaScript:
   - Scroll-Jump button added with animations
