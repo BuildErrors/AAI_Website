@@ -17,6 +17,18 @@ if(navClose){
     })
 }
 
+const suitcase = document.getElementById('suitcase');
+
+suitcase.addEventListener('mouseover', function() {
+    this.style.transition = 'src 2s ease'; // Add transition effect
+    this.src = 'assets/img/xray1.png';
+});
+
+suitcase.addEventListener('mouseout', function() {
+    this.style.transition = 'src 2s ease'; // Add transition effect
+    this.src = 'assets/img/blue_suitcase.png';
+});
+
 /*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll('.nav__link')
 

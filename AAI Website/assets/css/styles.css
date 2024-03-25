@@ -753,6 +753,10 @@ img {
         top: -5.5rem;
     }
 
+    .shop__img:hover {
+        border: solid;
+    }
+
     .shop__title {
         font-size: var(--h3-font-size);
     }
