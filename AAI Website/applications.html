@@ -1,119 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/applications.css">
-
-    <!--================= FAVICON =================-->
-    <link rel="shortcut icon" href="assets/img/favicon.png">
-
-    <!--================= JAVSCRIPT =================-->
-    <script>
-        // JavaScript function to handle card click event
-        function navigateToCheckmk() {
-            window.location.href = 'index.html';
-        }
-    </script>
-    <script>
-        // JavaScript function to handle card click event
-        function navigateToGitLab() {
-            window.location.href = 'index.html';
-        }
-    </script>
-    <script>
-        // JavaScript function to handle card click event
-        function navigateToOmada() {
-            window.location.href = 'index.html';
-        }
-    </script>
-    <script>
-        // JavaScript function to handle card click event
-        function navigateToP710() {
-            window.location.href = 'index.html';
-        }
-    </script>
-    <script>
-        // JavaScript function to handle card click event
-        function navigateToPEarthquake() {
-            window.location.href = 'index.html';
-        }
-    </script>
-    <script>
-        // JavaScript function to handle card click event
-        function navigateToPTsunami() {
-            window.location.href = 'index.html';
-        }
-    </script>
+    <title>Internal Applications</title>
+    <link rel="stylesheet" href="applications.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<img src="assets/img/applications/logo.jpg" class="logo">
-
-<h1 class="titleText">Internal Applications</h1>
-
 <body>
-    <main>
-        <div class="card" onclick="navigateToCheckmk()">
-            <img src="assets/img/applications/metrics.png" class="image">
-            <img src="assets/img/applications/metrics.png" class="background">
-            <div class="layer">
-                <div class="info">
-                    <h1>Checkmk</h1>
-                    <p>A comprehensive platform for monitoring of Analytical AI's servers and networks on-premises or in the cloud.</p>
-                </div>
-            </div>
+
+    <nav class="sidebar">
+        <div class="logo-menu">
+                <h2 class="logo">Internal Applications</h2>
+                <i class='bx bx-menu toggle-btn'></i>
         </div>
-        <div class="card" onclick="navigateToGitLab()">
-            <img src="assets/img/applications/waterfall.jpg" class="image">
-            <img src="assets/img/applications/waterfall.jpg" class="background">
-            <div class="layer">
-                <div class="info">
-                    <h1>GitLab</h1>
-                    <p>A complete DevOps platform that enables unique source code management to monitoring and security of entire codebases.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card" onclick="navigateToOmada()">
-            <img src="assets/img/applications/omada_controller.jpg" class="image">
-            <img src="assets/img/applications/omada_controller.jpg" class="background">
-            <div class="layer">
-                <div class="info">
-                    <h1>Omada Controller</h1>
-                    <p>Provides centralized management of an Omada Network.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card" onclick="navigateToP710()">
-            <img src="assets/img/applications/portainer_710.jpg" class="image">
-            <img src="assets/img/applications/portainer_710.jpg" class="background">
-            <div class="layer">
-                <div class="info">
-                    <h1>Portainer: 710Big</h1>
-                    <p>Versatile container management software hosted on Analytical AI's 710Big Server.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card" onclick="navigateToPEarthquake()">
-            <img src="assets/img/applications/portainer_earthquake.jpg" class="image">
-            <img src="assets/img/applications/portainer_earthquake.jpg" class="background">
-            <div class="layer">
-                <div class="info">
-                    <h1>Portainer: Earthquake</h1>
-                    <p>Versatile container management software hosted on Analytical AI's Earthquake Server.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card" onclick="navigateToPTsunami()">
-            <img src="assets/img/applications/portainer_tsunami.jpg" class="image">
-            <img src="assets/img/applications/portainer_tsunami.jpg" class="background">
-            <div class="layer">
-                <div class="info">
-                    <h1>Portainer: Tsunami</h1>
-                    <p>Versatile container management software hosted on Analytical AI's Tsunami Server.</p>
-                </div>
-            </div>
-        </div>
-    </main>
+
+        <ul class="list">
+            <li class="list-item active">
+                <a href="#">
+                    <i class='bx bxl-wikipedia'></i>
+                    <span class="link-name" style="--i:1;">Analytical AI Wiki</span>
+                </a>
+            </li>
+
+            <li class="list-item">
+                <a href="#">
+                    <i class='bx bx-desktop' ></i>
+                    <span class="link-name" style="--i:3;">System Monitoring</span>
+                </a>
+            </li>
+
+            <li class="list-item">
+                <a href="#">
+                    <i class='bx bxl-docker' ></i>
+                    <span class="link-name" style="--i:1;">Portainer</span>
+                </a>
+            </li>
+
+            <li class="list-item">
+                <a href="#">
+                    <i class='bx bxl-gitlab' ></i>
+                    <span class="link-name" style="--i:2;">GitLab</span>
+                </a>
+            </li>
+
+            <li class="list-item">
+                <a href="#">
+                    <i class='bx bx-network-chart' ></i>
+                    <span class="link-name" style="--i:4;">Networking</span>
+                </a>
+            </li>
+
+            <li class="list-item">
+                <a href="#">
+                    <i class='bx bx-conversation' ></i>
+                    <span class="link-name" style="--i:5;">Ollama LLM</span>
+                </a>
+            </li>
+
+            <li class="list-item">
+                <a href="#">
+                    <i class='bx bx-shape-polygon' ></i>
+                    <span class="link-name" style="--i:6;">Annotators</span>
+                </a>
+            </li>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <li class="list-item">
+                <a href="#">
+                    <i class='bx bx-user' ></i>
+                    <span class="link-name" style="--i:6;">Employee Help</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="center-content">123</div>
+
+    <script src="assets/js/script.js"></script>
 
     <footer>
         <span class="footer__copy">
@@ -121,4 +89,5 @@
         </span>
     </footer>
 </body>
+
 </html>
