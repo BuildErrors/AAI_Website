@@ -76,31 +76,31 @@ document.addEventListener("DOMContentLoaded", function () {
                 break;
             case 1: // System Monitoring
                 submenuItems = ['ConnectWise Control', 'CheckMk: System Monitoring'];
-                subPageUrls = ['https://analyticalai.screenconnect.com', 'http://10.0.0.10:8080']; // Hardcoded URLs for System Monitoring Monitoring submenu items
+                subPageUrls = ['index.html', 'index.html']; // Hardcoded URLs for System Monitoring Monitoring submenu items
                 break;
             case 2: // Portainer
                 submenuItems = ['Portainer: 710Big', 'Portainer: Earthquake', 'Portainer: Tsunami', 'Portainer: Cyclone'];
-                subPageUrls = ['http://10.0.0.10:9000', 'http://10.0.0.110:9000', 'http://10.0.0.115:9000', 'http://10.0.0.120:9000']; // Hardcoded URLs for Portainer submenu items
+                subPageUrls = ['index.html', 'index.html', 'index.html', 'index.html']; // Hardcoded URLs for Portainer submenu items
                 break;
             case 3: // GitLab
                 submenuItems = ['GitLab: Analytical AI'];
-                subPageUrls = ['http://10.0.0.10:8081']; // Hardcoded URLs for GitLab submenu items
+                subPageUrls = ['index.html']; // Hardcoded URLs for GitLab submenu items
                 break;
             case 4: // Networking
                 submenuItems = ['Omada Hardware Controller'];
-                subPageUrls = ['http://10.0.0.133']; // Hardcoded URLs for Networking submenu items
+                subPageUrls = ['index.html']; // Hardcoded URLs for Networking submenu items
                 break;
             case 5: // Ollama LLM
                 submenuItems = ['Internal LLM: Ollama'];
-                subPageUrls = ['http://10.0.0.55:3000']; // Hardcoded URLs for Ollama LLM submenu items
+                subPageUrls = ['index.html']; // Hardcoded URLs for Ollama LLM submenu items
                 break;
             case 6: // Annotators
                 submenuItems = ['AAI Annotator: Production Build', 'AAI Annotator: Internal Build', '3D Annotator', '3D Volume Viewer'];
-                subPageUrls = ['http://10.0.0.10/annotator/aai.html', 'http://10.0.0.10/annotator_internal/aai.html', 'http://10.0.0.15/Home/Annotator', 'http://10.0.0.10/VolumeViewer.html']; // Hardcoded URLs for Annotators submenu items
+                subPageUrls = ['index.html', 'index.html', 'index.html', 'index.html']; // Hardcoded URLs for Annotators submenu items
                 break;
             case 7: // Employee Help
                 submenuItems = ['Vacation Tracker', 'Kello Time', 'iSolved: Human Resources'];
-                subPageUrls = ['https://netorgft3781066.sharepoint.com/:x:/r/sites/analyticalai.com/_layouts/15/doc2.aspx?sourcedoc=%7B6F3245FC-6A89-4590-BFF2-138FBFCF8017%7D&file=_TimeoffTracker.xlsx&action=default&mobileredirect=true', 'https://app.kellotime.com/login', 'https://pbspeoservices.myisolved.com/UserLogin.aspx?ReturnUrl=%2f']; // Hardcoded URLs for Employee Help submenu items
+                subPageUrls = ['index.html', 'index.html', 'index.html']; // Hardcoded URLs for Employee Help submenu items
                 break;
         }
     
