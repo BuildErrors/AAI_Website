@@ -1,5 +1,5 @@
 # AAI_Website
-V1.50 - Main Page Completion, Technology Page Base, Application Page
+V1.65 - Main Page Completion, Technology Page Base, Intenrsl Application Page, Login Page
 ___________
 | Features |
 
@@ -25,6 +25,10 @@ Pages:
 - Login Page (Alpha):
   - Converted to Project Data
   - Implemented image loading conversions
+- Internal Applications Page (Completed)
+  - All Internal Applications mapped
+  - Design and page layout completed
+  - Added a reverse-submenu option that loads on page load as a requested feature
 
 Future:
   - Complete entire website base design
