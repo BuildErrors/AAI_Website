@@ -129,8 +129,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const button = document.createElement('button');
             button.textContent = item;
             button.classList.add('sub-menu-item');
-            button.style.fontSize = '18px'; // Adjust font size as needed
-            button.style.padding = '10px 20px'; // Adjust padding as needed
+            button.style.fontSize = '18px';
+            button.style.padding = '10px 20px';
             button.style.marginRight = '20px'; // Increase right margin to move items further to the right
             button.style.color = 'white'; // Changes the submenu item text to white
             button.style.backgroundColor = 'rgba(255, 255, 255, 0.2)'; // Semi-transparent black background
